@@ -1,9 +1,17 @@
+-- This file was automatically generated for the LuaDist project.
+
 package = "stuart-sql"
-version = "0.1.5-0"
+version = "0.1.5-1"
+-- LuaDist source
 source = {
-   url = "https://github.com/BixData/stuart-sql/archive/0.1.5-0.tar.gz",
-   dir = "stuart-sql-0.1.5-0"
+  tag = "0.1.5-1",
+  url = "git://github.com/LuaDist-testing/stuart-sql.git"
 }
+-- Original source
+-- source = {
+--    url = "https://github.com/BixData/stuart-sql/archive/0.1.5-1.tar.gz",
+--    dir = "stuart-sql-0.1.5-1"
+-- }
 description = {
    summary = "A native Lua implementation of Spark SQL",
    detailed = [[
@@ -19,8 +27,8 @@ dependencies = {
    "lua >= 5.1, < 5.3",
    "middleclass <= 4.1-0",
    "moses <= 1.6.1-1",
-   "parquet >= 0.8.0-2, < 0.8.1",
-   "stuart >= 0.1.5",
+   "parquet >= 0.8.0-3, < 0.8.1",
+   "stuart >= 0.1.5-1",
    "uuid <= 0.2-1"
 }
 build = {
